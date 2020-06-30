@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Pacifico&family=Righteous&family=Roboto:wght@100&family=Ubuntu+Condensed&display=swap');
+
+body{
+    padding: 0%;
+    margin:0%;
+    font-family: 'Lato';
+}
+.navbar-brand
+{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral !important;
+}
+.nav-link
+{
+    font-size: 16px;
+    margin:15px;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-link:hover
+{
+    color: lightskyblue !important;
+}
+.site-content
+{
+    background-image:url(Images/h2.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title,.site-desc
+{
+    color:white;
+    font-family: 'Righteous';
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 40%;
+    font-size: 50px;
+
+}
+/*section*/
+.section-1 ,.heading-1
+{
+    margin-top: 8%;
+}
+.card{
+    width:15rem;
+}
+/*section-2*/
+.section-2
+{
+    margin-top: 5%;
+}
+.section-2,.row,.col-md-7,.col-md-5
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.section-2 a
+{
+    color: lightseagreen;
+    font-size: 30px;
+    text-decoration: none;
+}
+.section-2,.para-1
+{
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    margin-top: 7%;
+
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+ @media screen and (max-width:768px)/*for tablet devices*/
+ {
+     .section-1.card{
+         width: 14rem;
+     }
+ }
+ @media screen and (max-width:320px)
+ {
+     /*.site-content .site-title{
+         font-size: 30px;
+         padding-left: 5%;
+     }*/
+     .navbar-brand
+     {  
+        font-size: 32px;
+     }
+     .section-1 .heading-1 p{
+         font-size: 25px;
+         margin-left: 5%;
+         
+     }
+     .section-1 .card{
+         width: 20rem;
+     }
+     .site-title{
+        margin-top: 50%;
+        margin-bottom: 60%;
+        padding: 0px;
+        font-size: 25px;
+     }
+     .site-content
+{
+    background-image:url(Images/h2.jpg) ;
+    width: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section-1 .heading-1
+
+{
+    text-align: center;
+    
+}
+
+
+.section-2 
+{
+    width: 25rem;
+}
+ footer input[type="button"]
+ {
+     margin-top:5%;
+     
+ }
+  footer
+  {
+      width: 25rem;
+
+  }
+  footer .jumbotron
+  {
+      margin-top: 5%;
+  }
+ }
